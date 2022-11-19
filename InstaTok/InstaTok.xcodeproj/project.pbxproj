@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40EA520C29280E6400A21804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA520B29280E6400A21804 /* AppDelegate.swift */; };
+		40EA520E29280E6400A21804 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA520D29280E6400A21804 /* SceneDelegate.swift */; };
+		40EA521029280E6400A21804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA520F29280E6400A21804 /* ViewController.swift */; };
+		40EA521329280E6400A21804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EA521129280E6400A21804 /* Main.storyboard */; };
+		40EA521529280E6600A21804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EA521429280E6600A21804 /* Assets.xcassets */; };
+		40EA521829280E6600A21804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EA521629280E6600A21804 /* LaunchScreen.storyboard */; };
+		40EA522129280FEA00A21804 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40EA521F29280FE000A21804 /* GoogleService-Info.plist */; };
+		40EA52252928167F00A21804 /* StringUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA52242928167F00A21804 /* StringUtilities.swift */; };
+		40EA52272928176E00A21804 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA52262928176E00A21804 /* KeyChainService.swift */; };
+		40EA522A2928315600A21804 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA52292928315600A21804 /* DashboardViewController.swift */; };
+		40EA522D2928363800A21804 /* AddAPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA522C2928363800A21804 /* AddAPostViewController.swift */; };
+		40EA523029284D5C00A21804 /* ImagePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA522E29284D5C00A21804 /* ImagePostTableViewCell.swift */; };
+		40EA523129284D5C00A21804 /* ImagePostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA522F29284D5C00A21804 /* ImagePostTableViewCell.xib */; };
+		40EA52352928565900A21804 /* PostsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA52342928565900A21804 /* PostsClass.swift */; };
+		4EAF81E0746D87DE1232FF0D /* Pods_InstaTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F412C7DC52EE195439DEEC /* Pods_InstaTok.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38B67D45A3409EE0A0842999 /* Pods-InstaTok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaTok.debug.xcconfig"; path = "Target Support Files/Pods-InstaTok/Pods-InstaTok.debug.xcconfig"; sourceTree = "<group>"; };
+		40EA520829280E6400A21804 /* InstaTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EA520B29280E6400A21804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40EA520D29280E6400A21804 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40EA520F29280E6400A21804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40EA521229280E6400A21804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40EA521429280E6600A21804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40EA521729280E6600A21804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40EA521929280E6600A21804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EA521F29280FE000A21804 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40EA52242928167F00A21804 /* StringUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilities.swift; sourceTree = "<group>"; };
+		40EA52262928176E00A21804 /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		40EA52292928315600A21804 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		40EA522C2928363800A21804 /* AddAPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAPostViewController.swift; sourceTree = "<group>"; };
+		40EA522E29284D5C00A21804 /* ImagePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePostTableViewCell.swift; sourceTree = "<group>"; };
+		40EA522F29284D5C00A21804 /* ImagePostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagePostTableViewCell.xib; sourceTree = "<group>"; };
+		40EA52342928565900A21804 /* PostsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsClass.swift; sourceTree = "<group>"; };
+		80060B84F183B3BB87477C86 /* Pods-InstaTok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaTok.release.xcconfig"; path = "Target Support Files/Pods-InstaTok/Pods-InstaTok.release.xcconfig"; sourceTree = "<group>"; };
+		B7F412C7DC52EE195439DEEC /* Pods_InstaTok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaTok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EA520529280E6400A21804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAF81E0746D87DE1232FF0D /* Pods_InstaTok.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40EA51FF29280E6400A21804 = {
+			isa = PBXGroup;
+			children = (
+				40EA520A29280E6400A21804 /* InstaTok */,
+				40EA520929280E6400A21804 /* Products */,
+				6B0A620FF4529B9B820FEA4D /* Pods */,
+				9778C6CCD7D1F36CE66F6B8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40EA520929280E6400A21804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40EA520829280E6400A21804 /* InstaTok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40EA520A29280E6400A21804 /* InstaTok */ = {
+			isa = PBXGroup;
+			children = (
+				40EA522B2928360500A21804 /* AddAPost */,
+				40EA52282928312500A21804 /* Dashboard */,
+				40EA5223292815D000A21804 /* Models */,
+				40EA5222292815C700A21804 /* Utilities */,
+				40EA520B29280E6400A21804 /* AppDelegate.swift */,
+				40EA520D29280E6400A21804 /* SceneDelegate.swift */,
+				40EA520F29280E6400A21804 /* ViewController.swift */,
+				40EA521129280E6400A21804 /* Main.storyboard */,
+				40EA521429280E6600A21804 /* Assets.xcassets */,
+				40EA521629280E6600A21804 /* LaunchScreen.storyboard */,
+				40EA521929280E6600A21804 /* Info.plist */,
+				40EA521F29280FE000A21804 /* GoogleService-Info.plist */,
+			);
+			path = InstaTok;
+			sourceTree = "<group>";
+		};
+		40EA5222292815C700A21804 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				40EA52242928167F00A21804 /* StringUtilities.swift */,
+				40EA52262928176E00A21804 /* KeyChainService.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		40EA5223292815D000A21804 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				40EA52342928565900A21804 /* PostsClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40EA52282928312500A21804 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				40EA52292928315600A21804 /* DashboardViewController.swift */,
+				40EA522E29284D5C00A21804 /* ImagePostTableViewCell.swift */,
+				40EA522F29284D5C00A21804 /* ImagePostTableViewCell.xib */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		40EA522B2928360500A21804 /* AddAPost */ = {
+			isa = PBXGroup;
+			children = (
+				40EA522C2928363800A21804 /* AddAPostViewController.swift */,
+			);
+			path = AddAPost;
+			sourceTree = "<group>";
+		};
+		6B0A620FF4529B9B820FEA4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38B67D45A3409EE0A0842999 /* Pods-InstaTok.debug.xcconfig */,
+				80060B84F183B3BB87477C86 /* Pods-InstaTok.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9778C6CCD7D1F36CE66F6B8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7F412C7DC52EE195439DEEC /* Pods_InstaTok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EA520729280E6400A21804 /* InstaTok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EA521C29280E6600A21804 /* Build configuration list for PBXNativeTarget "InstaTok" */;
+			buildPhases = (
+				8941A87625A553EFC85246FD /* [CP] Check Pods Manifest.lock */,
+				40EA520429280E6400A21804 /* Sources */,
+				40EA520529280E6400A21804 /* Frameworks */,
+				40EA520629280E6400A21804 /* Resources */,
+				0BE5A58FF318AEC557FFAA17 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaTok;
+			productName = InstaTok;
+			productReference = 40EA520829280E6400A21804 /* InstaTok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40EA520029280E6400A21804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					40EA520729280E6400A21804 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 40EA520329280E6400A21804 /* Build configuration list for PBXProject "InstaTok" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40EA51FF29280E6400A21804;
+			productRefGroup = 40EA520929280E6400A21804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40EA520729280E6400A21804 /* InstaTok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40EA520629280E6400A21804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EA521829280E6600A21804 /* LaunchScreen.storyboard in Resources */,
+				40EA522129280FEA00A21804 /* GoogleService-Info.plist in Resources */,
+				40EA523129284D5C00A21804 /* ImagePostTableViewCell.xib in Resources */,
+				40EA521529280E6600A21804 /* Assets.xcassets in Resources */,
+				40EA521329280E6400A21804 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BE5A58FF318AEC557FFAA17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaTok/Pods-InstaTok-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaTok/Pods-InstaTok-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaTok/Pods-InstaTok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8941A87625A553EFC85246FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaTok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EA520429280E6400A21804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EA52352928565900A21804 /* PostsClass.swift in Sources */,
+				40EA521029280E6400A21804 /* ViewController.swift in Sources */,
+				40EA522A2928315600A21804 /* DashboardViewController.swift in Sources */,
+				40EA520C29280E6400A21804 /* AppDelegate.swift in Sources */,
+				40EA523029284D5C00A21804 /* ImagePostTableViewCell.swift in Sources */,
+				40EA52272928176E00A21804 /* KeyChainService.swift in Sources */,
+				40EA520E29280E6400A21804 /* SceneDelegate.swift in Sources */,
+				40EA52252928167F00A21804 /* StringUtilities.swift in Sources */,
+				40EA522D2928363800A21804 /* AddAPostViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40EA521129280E6400A21804 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40EA521229280E6400A21804 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40EA521629280E6600A21804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40EA521729280E6600A21804 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40EA521A29280E6600A21804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40EA521B29280E6600A21804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40EA521D29280E6600A21804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B67D45A3409EE0A0842999 /* Pods-InstaTok.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaTok/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jw.InstaTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40EA521E29280E6600A21804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80060B84F183B3BB87477C86 /* Pods-InstaTok.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaTok/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jw.InstaTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40EA520329280E6400A21804 /* Build configuration list for PBXProject "InstaTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EA521A29280E6600A21804 /* Debug */,
+				40EA521B29280E6600A21804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EA521C29280E6600A21804 /* Build configuration list for PBXNativeTarget "InstaTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EA521D29280E6600A21804 /* Debug */,
+				40EA521E29280E6600A21804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40EA520029280E6400A21804 /* Project object */;
+}
